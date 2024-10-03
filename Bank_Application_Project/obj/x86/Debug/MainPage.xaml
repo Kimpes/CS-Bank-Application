@@ -1,0 +1,50 @@
+﻿<Page
+    x:Class="Bank_Application_Project.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Bank_Application_Project"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Rectangle HorizontalAlignment="Left" Height="153" Margin="26,25,0,0" Stroke="Black" VerticalAlignment="Top" Width="351"/>
+        <Button x:ConnectionId='2' x:Name="customerDisplayButton" Content="Display All Customers" Margin="1008,171,0,0" VerticalAlignment="Top" Width="191" Height="39" Visibility="Visible"                           />
+        <TextBox x:ConnectionId='3' x:Name="outputText" HorizontalAlignment="Left" Margin="955,234,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="448" Width="296" IsReadOnly="True"/>
+        <Button x:ConnectionId='4' x:Name="logInButton" Content="Log In" Margin="270,73,0,0" VerticalAlignment="Top" Width="73"                    />
+        <TextBox x:ConnectionId='5' x:Name="logInInput" HorizontalAlignment="Left" Margin="101,73,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>
+        <TextBlock HorizontalAlignment="Left" Margin="42,80,0,0" Text="SSN" TextWrapping="Wrap" VerticalAlignment="Top" Width="48" TextAlignment="Center"/>
+        <TextBlock x:ConnectionId='6' x:Name="logInResults" HorizontalAlignment="Left" Margin="101,126,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Rectangle HorizontalAlignment="Left" Height="448" Margin="26,234,0,0" Stroke="Black" VerticalAlignment="Top" Width="883"/>
+        <TextBlock x:ConnectionId='7' x:Name="currentUserDiplay" HorizontalAlignment="Left" Margin="26,248,0,0" Text="Not Logged In" TextWrapping="Wrap" VerticalAlignment="Top" Height="64" Width="243" TextAlignment="Center" FontSize="18"/>
+        <TextBox x:ConnectionId='8' x:Name="addUserInputSSN" HorizontalAlignment="Left" Margin="509,178,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="211"/>
+        <TextBox x:ConnectionId='9' x:Name="addUserInputName" HorizontalAlignment="Left" Margin="509,129,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="211"/>
+        <TextBlock HorizontalAlignment="Left" Margin="442,185,0,0" Text="SSN" TextWrapping="Wrap" VerticalAlignment="Top" Width="51" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="442,136,0,0" Text="Name" TextWrapping="Wrap" VerticalAlignment="Top" Width="51" TextAlignment="Center"/>
+        <Button x:ConnectionId='10' x:Name="addUserButton" Content="Add New User" Margin="744,129,0,0" VerticalAlignment="Top" Height="81" Width="139"                />
+        <Button x:ConnectionId='11' x:Name="displayUserInfoButton" Content="Display Customer Info" Margin="56,331,0,0" VerticalAlignment="Top" Width="191"                        />
+        <Button x:ConnectionId='12' x:Name="deleteUserButton" Content="Delete Current Customer" Margin="55,622,0,0" VerticalAlignment="Top" Width="191"                   />
+        <Button x:ConnectionId='13' x:Name="addSavingsAccountButton" Content="Add New Savings Account" Margin="55,380,0,0" Width="191"                           VerticalAlignment="Top"/>
+        <Button x:ConnectionId='14' x:Name="logOutButton" Content="Log Out" Margin="270,123,0,0" VerticalAlignment="Top" Width="73"               />
+        <TextBox x:ConnectionId='15' x:Name="accountNumberInput" HorizontalAlignment="Left" Margin="690,277,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="169"/>
+        <TextBlock HorizontalAlignment="Left" Margin="722,253,0,0" Text="Account Number" TextWrapping="Wrap" VerticalAlignment="Top" Width="116" TextAlignment="Center"/>
+        <Button x:ConnectionId='16' x:Name="getAccountInfoButton" Content="Display Account Info" Margin="679,0,0,0" Width="191"                       />
+        <Button x:ConnectionId='17' x:Name="removeAccountButton" Content="Remove Account" Margin="679,396,0,0" Width="191"                       VerticalAlignment="Top"/>
+        <TextBox x:ConnectionId='18' x:Name="cashInput" HorizontalAlignment="Left" Margin="690,572,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="169" TextAlignment="Right"/>
+        <Button x:ConnectionId='19' x:Name="cashWithdrawButton" Content="Withdraw" Margin="690,622,0,0" VerticalAlignment="Top"                     />
+        <Button x:ConnectionId='20' x:Name="cashDepositButton" Content="Deposit" Margin="791,622,0,0" VerticalAlignment="Top"                    />
+        <TextBlock HorizontalAlignment="Left" Margin="660,579,0,0" Text="$" TextWrapping="Wrap" VerticalAlignment="Top" Width="29" TextAlignment="Center"/>
+        <TextBox x:ConnectionId='21' x:Name="outputAccountText" HorizontalAlignment="Left" Margin="270,253,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="410" Width="390" FontSize="12" IsReadOnly="True"/>
+        <Button x:ConnectionId='22' x:Name="addCreditAccountButton" Content="Add New Credit Account" Margin="55,426,0,0" Width="191"                          VerticalAlignment="Top"/>
+        <Button x:ConnectionId='23' x:Name="displayAccountHistory" Content="Display Transactions" Margin="679,513,0,0" Width="191"                             VerticalAlignment="Top"/>
+        <TextBox x:ConnectionId='24' x:Name="newNameInput" HorizontalAlignment="Left" Margin="57,492,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="190"/>
+        <Button x:ConnectionId='25' x:Name="newNameButton" Content="Change Customer's Name" Margin="57,529,0,0" VerticalAlignment="Top" Width="190"                />
+        <Rectangle x:ConnectionId='26' x:Name="logInBlock" HorizontalAlignment="Left" Height="448" Margin="26,234,0,0" Stroke="Black" VerticalAlignment="Top" Width="883" Fill="{ThemeResource SystemChromeWhiteColor}" Visibility="Collapsed"/>
+        <TextBlock x:ConnectionId='27' x:Name="logInBlockText" HorizontalAlignment="Left" Margin="307,458,0,0" Text="Log in to use more features" TextWrapping="Wrap" VerticalAlignment="Top" Height="54" Width="343" TextAlignment="Center" FontSize="24" Visibility="Collapsed"/>
+        <TextBlock HorizontalAlignment="Left" Margin="530,23,0,0" Text="Bank Application" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="36"/>
+
+
+    </Grid>
+</Page>
+

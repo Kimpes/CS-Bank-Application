@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "dgSpecHash": "qjrIS5D2sieoUDzzimTtk9QGsXlVPh4SBi7rSMRLBIwUEQ+d+iHvSvCeK4XoHwA1jxs1HztWy4sdjODGtn8cHg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gusta\\source\\repos\\Bank_Application_Project\\Bank_Application_Project\\Bank_Application_Project.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gusta\\.nuget\\packages\\microsoft.net.native.compiler\\2.2.9-rel-29512-01\\microsoft.net.native.compiler.2.2.9-rel-29512-01.nupkg.sha512",
+    "C:\\Users\\gusta\\.nuget\\packages\\microsoft.net.uwpcoreruntimesdk\\2.2.11\\microsoft.net.uwpcoreruntimesdk.2.2.11.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",
+    "C:\\Users\\gusta\\.nuget\\packages\\microsoft.netcore.universalwindowsplatform\\6.2.11\\microsoft.netcore.universalwindowsplatform.6.2.11.nupkg.sha512",
+    "C:\\Users\\gusta\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\gusta\\.nuget\\packages\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform\\6.2.11\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform.6.2.11.nupkg.sha512",
+    "C:\\Users\\gusta\\.nuget\\packages\\runtime.win10-arm.microsoft.net.native.compiler\\2.2.9-rel-29512-01\\runtime.win10-arm.microsoft.net.native.compiler.2.2.9-rel-29512-01.nupkg.sha512",
+    "C:\\Users\\gusta\\.nuget\\packages\\runtime.win10-arm.microsoft.net.native.sharedlibrary\\2.2.8-rel-29512-01\\runtime.win10-arm.microsoft.net.native.sharedlibrary.2.2.8-rel-29512-01.nupkg.sha512",
+    "C:\\Users\\gusta\\.nuget\\packages\\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\\2.2.11\\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk.2.2.11.nupkg.sha512",
+    "C:\\Users\\gusta\\.nuget\\packages\\runtime.win10-arm.microsoft.netcore.universalwindowsplatform\\6.2.11\\runtime.win10-arm.microsoft.netcore.universalwindowsplatform.6.2.11.nupkg.sha512",
+    "C:\\Users\\gusta\\.nuget\\packages\\runtime.win10-arm64-aot.microsoft.netcore.universalwindowsplatform\\6.2.11\\runtime.win10-arm64-aot.microsoft.netcore.universalwindowsplatform.6.2.11.nupkg.sha512",
+    "C:\\Users\\gusta\\.nuget\\packages\\runtime.win10-arm64.microsoft.net.native.compiler\\2.2.9-rel-29512-01\\runtime.win10-arm64.microsoft.net.native.compiler.2.2.9-rel-29512-01.nupkg.sha512",
+    "C:\\Users\\gusta\\.nuget\\packages\\runtime.win10-arm64.microsoft.net.native.sharedlibrary\\2.2.8-rel-29512-01\\runtime.win10-arm64.microsoft.net.native.sharedlibrary.2.2.8-rel-29512-01.nupkg.sha512",
+    "C:\\Users\\gusta\\.nuget\\packages\\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\\6.2.11\\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform.6.2.11.nupkg.sha512",
+    "C:\\Users\\gusta\\.nuget\\packages\\runtime.win10-x64.microsoft.net.native.compiler\\2.2.9-rel-29512-01\\runtime.win10-x64.microsoft.net.native.compiler.2.2.9-rel-29512-01.nupkg.sha512",
+    "C:\\Users\\gusta\\.nuget\\packages\\runtime.win10-x64.microsoft.net.native.sharedlibrary\\2.2.8-rel-29512-01\\runtime.win10-x64.microsoft.net.native.sharedlibrary.2.2.8-rel-29512-01.nupkg.sha512",
+    "C:\\Users\\gusta\\.nuget\\packages\\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\\2.2.11\\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk.2.2.11.nupkg.sha512",
+    "C:\\Users\\gusta\\.nuget\\packages\\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\\6.2.11\\runtime.win10-x64.microsoft.netcore.universalwindowsplatform.6.2.11.nupkg.sha512",
+    "C:\\Users\\gusta\\.nuget\\packages\\runtime.win10-x86-aot.microsoft.netcore.universalwindowsplatform\\6.2.11\\runtime.win10-x86-aot.microsoft.netcore.universalwindowsplatform.6.2.11.nupkg.sha512",
+    "C:\\Users\\gusta\\.nuget\\packages\\runtime.win10-x86.microsoft.net.native.compiler\\2.2.9-rel-29512-01\\runtime.win10-x86.microsoft.net.native.compiler.2.2.9-rel-29512-01.nupkg.sha512",
+    "C:\\Users\\gusta\\.nuget\\packages\\runtime.win10-x86.microsoft.net.native.sharedlibrary\\2.2.8-rel-29512-01\\runtime.win10-x86.microsoft.net.native.sharedlibrary.2.2.8-rel-29512-01.nupkg.sha512",
+    "C:\\Users\\gusta\\.nuget\\packages\\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\\2.2.11\\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk.2.2.11.nupkg.sha512",
+    "C:\\Users\\gusta\\.nuget\\packages\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\\6.2.11\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform.6.2.11.nupkg.sha512"
+  ],
+  "logs": []
+}
